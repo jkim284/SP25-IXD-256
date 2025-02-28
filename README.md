@@ -20,7 +20,5 @@ Once you feel the need to turn off the lamp, simply lift it up, and place it bac
 
 
 ## Flow Chart
-Here's our logo (hover to see the title text):
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Flow Chart](https://github.com/user-attachments/assets/a20cf25e-097c-4ce0-b527-643d45a0ccbd)
