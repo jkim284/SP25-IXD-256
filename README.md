@@ -4,6 +4,28 @@
 ## Concept
 This product is a lamp designed for Mecedes-Benz to help lighten up and decorate your desk. The product itself is quite heavy, so it is not really meant to be moved aorund often. It is made of a total of 4 clear acrylic disks, and a piece of MDF board to supprt the bottom. Another core component of this product is the flat pedestal placed at the bottom of the lmap that helps trigger it's stages.
 
+## Flow Chart
+
+![Flow Chart](https://github.com/user-attachments/assets/b62f7f38-a91f-4ba9-bfc1-112297c0166f)
+
+## Process
+
+First, I found a reference image of a Mercedes-Benz S Class rims that I found interesting. Then I took it and traced over it in Adobe Illustrator. Next, I made it Laser-Cut friendly and went to the Laser Lab at ArtCenter's Hillside Campus and cut a total of 5 pieces to make the lamp in the shape of the rim. Afterwards, I took the pieces and joined them together using acrylic bond. Afterwards, I inserted the LEDs trip over into the middle of the lamp and coded the light sequernce.
+
+![Screenshot 2025-02-28 at 11 03 15 1](https://github.com/user-attachments/assets/01cd3805-cbff-4a58-b66e-35e8e3538c64)
+![Screenshot 2025-02-28 at 11 03 31 1](https://github.com/user-attachments/assets/be4d529d-33ee-463a-bd8a-1a333404233e)
+![Screenshot 2025-02-28 at 11 03 44 1](https://github.com/user-attachments/assets/bf24c51d-546b-4c6a-97ce-7f3a79360c51)
+![Screenshot 2025-02-28 at 11 03 58 1](https://github.com/user-attachments/assets/09d69706-ea87-495c-a81e-69f94970de2b)
+![Screenshot 2025-02-28 at 11 04 16 1](https://github.com/user-attachments/assets/35df667d-ea78-40fd-bf8f-2fb985c29d26)
+![Screenshot 2025-02-28 at 11 06 04 1](https://github.com/user-attachments/assets/a6476014-0865-417f-b61e-99d655646e14)
+![IMG_2536 1](https://github.com/user-attachments/assets/067898ae-7abc-49ba-93f3-97654da1b75b)
+
+## Code
+
+![Code](https://github.com/user-attachments/assets/6e257e16-4db1-4dae-bf26-e440eed52df2)
+
+
+
 ## Stages
 
 ### Stage 1 
@@ -31,9 +53,4 @@ The final stage is tiggered once the 'on' stage sets off. Once the 'on' stage is
 Once you feel the need to turn off the lamp, simply lift it up, and place it back on the pedestal, and it will turn off. 
 
 ![IMG_2538](https://github.com/user-attachments/assets/b81b08a8-7eab-4207-a118-b42e8c07a355)
-
-## Flow Chart
-
-![Flow Chart](https://github.com/user-attachments/assets/b62f7f38-a91f-4ba9-bfc1-112297c0166f)
-
 
