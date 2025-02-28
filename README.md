@@ -45,3 +45,6 @@ Once you feel the need to turn off the lamp, simply lift it up, and place it bac
 
 ![IMG_2538](https://github.com/user-attachments/assets/b81b08a8-7eab-4207-a118-b42e8c07a355)
 
+## Final Product
+
+
