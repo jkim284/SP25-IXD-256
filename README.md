@@ -17,3 +17,6 @@ The final stage is tiggered once the 'on' stage sets off. Once the 'on' stage is
 
 ### Stage 4
 Once you feel the need to turn off the lamp, simply lift it up, and place it back on the pedestal, and it will turn off. 
+
+
+## Flow Chart
