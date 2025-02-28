@@ -4,9 +4,9 @@
 ## Concept
 This product is a lamp designed for Mecedes-Benz to help lighten up and decorate your desk. The product itself is quite heavy, so it is not really meant to be moved aorund often. It is made of a total of 4 clear acrylic disks, and a piece of MDF board to supprt the bottom. Another core component of this product is the flat pedestal placed at the bottom of the lmap that helps trigger it's stages.
 
-##Stages
+## Stages
 
-###Stage 1 
+### Stage 1 
 This is the resting or 'idle' state that the lamp is in. The lamp rests on top of the flat pedestal, and all LED lights are off.
 
 ### Stage 2
