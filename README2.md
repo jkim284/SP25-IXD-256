@@ -10,10 +10,10 @@ This product is a bracelet designed for concerts to provide a fun way to further
 ## Process
 
 
+
 ## Code
 
-
-
+![Code - Assignment 4](https://github.com/user-attachments/assets/5f46eb68-02b9-46e8-9136-48c5db61cc19)
 
 ## Stages
 
