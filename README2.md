@@ -9,7 +9,7 @@ This product is a bracelet designed for concerts to provide a fun way to further
 
 ## Process
 
-
+First, I coded the micropython file so that the IMU and 
 
 ## Code
 
