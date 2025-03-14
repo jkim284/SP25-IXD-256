@@ -58,6 +58,7 @@ This product is a bracelet designed for concerts to provide a fun way to further
 
 ## Flow Chart
 
+![Flow Chart - Concert Bracelet](https://github.com/user-attachments/assets/2a2403e8-5862-4787-a15e-c760785fb93f)
 
 ## Process
 
@@ -70,12 +71,13 @@ This product is a bracelet designed for concerts to provide a fun way to further
 ## Stages
 
 ### Stage 1 
+Bracelet is in idle state. -> In Protopie, it will print 'idle' until triggered.
 
+### Stage 2
+Moving the wrist in certain ways will trigger the LED lights to react in various ways.
 
 ### Stage 3
 
-
-### Stage 3
-
+Once you are finished, you can take off the bracelet and it will turn off.
 
 ## Final Product
