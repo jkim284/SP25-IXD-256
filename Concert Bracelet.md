@@ -22,7 +22,6 @@ First, I coded the micropython file so that the IMU and LED strips interacted ac
 ### Stage 1 
 Bracelet is in idle state. -> In Protopie, it will have a black screen until the wrist is tilted in either direction.
 
-![IMG_4279](https://github.com/user-attachments/assets/0b3adee0-dd68-497a-8194-3cf69a461787)
 ![IMG_3102](https://github.com/user-attachments/assets/996174d5-74a5-4176-8cfc-543f92a7c1f8)
 
 ### Stage 2
@@ -30,13 +29,11 @@ Moving the wrist in certain ways will trigger the LED lights to react in various
 
 For example, if you tilt your wrist to the left, the LED strip will turn red and your phone screen will say the artist name.
 
-![IMG_3103](https://github.com/user-attachments/assets/d3f13cd2-92b7-4e82-a926-5528159c037c)
-![IMG_4282](https://github.com/user-attachments/assets/6c9751f6-e826-4cc9-ae2c-c0be9eb89dcc)
+![IMG_3459](https://github.com/user-attachments/assets/cb739a8c-946c-4178-8e85-0ce71edc030c)
 
 If you tilt your wrist the other way, the LED strip will turn red once again and your phone screen will display the album name.
 
-![IMG_3103](https://github.com/user-attachments/assets/16ae6c4b-5abf-467c-95e2-d488481e7e06)
-![IMG_4281](https://github.com/user-attachments/assets/209fd034-9c65-43b8-b82c-ca531a39da9a)
+![IMG_3460](https://github.com/user-attachments/assets/6a28abf7-ec9b-4d65-bc4c-2fa5654a70a3)
 
 ### Stage 3
 
@@ -45,3 +42,5 @@ Once you are finished, you can take off the bracelet and it will turn off.
 ![IMG_3101](https://github.com/user-attachments/assets/9920a997-0900-4343-ae3d-5bc9da05241f)
 
 ## Final Product
+
+https://drive.google.com/file/d/1g765OnEe0iubRYZ-faWc0CElkyAsv-an/view?usp=sharing
