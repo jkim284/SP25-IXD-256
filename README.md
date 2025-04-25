@@ -16,7 +16,6 @@ Include a state diagram (flowchart) to explan the interactive behaviors of the p
   
 ### Hardware
 
-List all the separate hardware components used in your project and briefly explain what they do.  To create a list with markdown syntax, use `-`, `*`, or `+` characters with each line of text:  
 * LED light  - Gives the donor feedback about the box
 * Light Sensor  - Senses when the lid has been lifted
 * Proximity Sensor  - Senses when a toy has been placed into the box
