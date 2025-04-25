@@ -6,21 +6,19 @@ wanted to think of a way that could help them to find even a little comfort duri
 
 ## Implementation   
 
-The box consists of  
-
-In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain how it functions.  Use a separate subheader for each part:
+The box consists of two sensors, a screen, and a LED light strip all placed within a wooden box, where the donation will also go. It is designed so that the hardware all rests inside the box, and is covered by various compartments inside the box. The Box it's self is divded into five parts- two parts for the lid, and three parts for the actual box. The LED strip, phone screen, and light sensor is placed on the lid while the proximity sensor and ATOM Matrix is placed in a hollow section inside the box. The box itself was created by laser cutting multiple layers of the same teddy bear shape, and gluing them together. It was then sanded and prepped to actually store and house the hardware components.
 
 ### State Diagram
   
-Include a state diagram (flowchart) to explan the interactive behaviors of the prototype you created.  Indicate which parts of the diagram represent hardware/firmware functionality (code on the ATOM board) and which parts are computer software (ProtoPie, etc.)   
-  
+![Flow Chart](https://github.com/user-attachments/assets/72b7edd0-fa0c-4f30-979b-11549e992fd7)
+
 ### Hardware
 
 * LED light  - Gives the donor feedback about the box
 * Light Sensor  - Senses when the lid has been lifted
 * Proximity Sensor  - Senses when a toy has been placed into the box
 
-Include image(s) showing your hardware wiring in detail.  This could be several close-ups photos with the goal of showing the wiring connections are made between the ATOM board and each hardware component.  
+![IMG_4695](https://github.com/user-attachments/assets/062d950e-61a2-4a9c-87c1-f78c726f0a80)
   
 ### Schematic or Wiring Diagram
 
@@ -28,13 +26,84 @@ Create a diagram or sketch to represent how all the hardware components of your 
 
 ### Firmware   
 
-Upload your MicroPython code and explain the important parts that make your prototype work.  Most likely you should explain the inputs/outputs used in your code and how they affect the behavior of the prototype.
-
-To include code snippets, you can use the code block markdown, like this:
-
 ``` Python  
-if(sensor_val > 100):  # sensor value higher than threshold
-   led_pin.on()  # turn on LED
+from machine import Pin, ADC
+from neopixel import NeoPixel
+from time import sleep, sleep_ms
+
+# --- Hardware setup ---
+
+# Light sensor on pin 1
+light_adc = ADC(Pin(1, Pin.IN))
+light_adc.atten(ADC.ATTN_11DB)
+
+# IR sensor on pin 7
+IR_adc = ADC(Pin(7, Pin.IN))
+IR_adc.atten(ADC.ATTN_11DB)
+
+# NeoPixel strip on pin 38, with 15 LEDs
+NUM_PIXELS = 7
+np = NeoPixel(Pin(38, Pin.OUT), NUM_PIXELS)
+
+# --- Thresholds (calibrate these!) ---
+LIGHT_THRESHOLD = 4000    # adjust so light_val > this → “light triggered”
+IR_THRESHOLD    = 300    # adjust so IR_val   > this → “IR triggered”
+
+# --- Helpers ---
+
+def set_all(r, g, b):
+    for i in range(NUM_PIXELS):
+        np[i] = (r, g, b)
+    np.write()
+
+# State 1 animation: one pixel every 3 s until full, then clear, repeat
+def state_one_animation():
+        for i in range(7):
+                #set_all(0, 0, 0)
+                sleep_ms(1000)
+                np[i] = (255, 255, 255)
+                
+                np.write()
+                # 3 s in 30 × 100 ms chunks so we can re‑check sensors
+        set_all(0,0,0)
+        for i in range(7):
+            sleep_ms(1000)
+            lv = light_adc.read()
+            iv = IR_adc.read()
+            if lv > LIGHT_THRESHOLD or iv < IR_THRESHOLD:
+                return
+                    
+                # once full, clear and repeat
+        
+
+def state_two_light():
+    for i in range(6):
+        np[i] = (100, 100, 100)
+        np.write()
+        
+def state_three_ir():
+    for i in range(7):
+        np[i] = (0, 100, 0)
+        np.write()
+
+# --- Main loop ---
+while True:
+    lv = light_adc.read()
+    iv = IR_adc.read()
+        #print('Main    | light_val =', lv, '| IR_val =', iv)
+    print('light_val||' + str(lv))
+    print('IR_val||' + str(iv))
+    sleep_ms(100)
+        
+    if lv < LIGHT_THRESHOLD and iv > IR_THRESHOLD:
+        state_two_light()
+        print("OPEN")
+    if iv < IR_THRESHOLD and lv < LIGHT_THRESHOLD:
+        state_three_ir()
+        print("REGISTERED")
+    if lv > LIGHT_THRESHOLD and iv < IR_THRESHOLD:
+        state_one_animation()
+        print("IDLE")
 ```
 
 ### Software   
@@ -58,7 +127,3 @@ Note that GitHub has a small size limit for uploading files via browswer (25Mb m
 ## Conclusion  
 
 As you wrap up the project, reflect on your experience of creating it.  Use this as an opportunity to mention any discoveries or challenges you came across along the way.  If there is anything you would have done differently, or have a chance to continue the project development given more time or resources, it’s a good way to conclude this section.
-
-## Project references  
-
-Please include links to any online resources like videos or tutorials that you may have found helpful in your process of implementing the prototype. If you used any substantial code from an online resource, make sure to credit the author(s) or sources.  
