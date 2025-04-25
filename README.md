@@ -108,11 +108,9 @@ while True:
 
 ### Software   
 
-Explain the software components of your project, such as your ProtoPie project or p5.js sketch.  Include screenshots that show the relevant details of software implementation.  
+The main software I used was ProtoPie, and I wanted the users to interect with it- not just receive informaiton from it, so I had certain areas where the user had to input information regarding the toy directly into the screen.
 
 ### Integrations   
-
-As for my software, I used ProtoPie to convey my interface screens and had the user interacting with both the screen and the physical box itself.
 
 <img width="1711" alt="Screenshot 2025-04-25 at 15 05 44" src="https://github.com/user-attachments/assets/3bf68d5d-8fbc-44fe-9705-98287d5497ce" />
 
