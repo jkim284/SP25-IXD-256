@@ -127,10 +127,10 @@ In order to cut my pieces, I first had to create an Illustrator file so that it 
 
 ## Project outcome  
 
-Summarize the results of your final project implementation and include some photos of the prototype and a video walkthrough showing it working.  
+In the end, I got my prototype to work in the ways that I wanted it to, and I was satisfied with that- however, I think it can become somethign bigger and I would like to contiinue to work on it if a ever get a chance.  
 
-Note that GitHub has a small size limit for uploading files via browswer (25Mb max), so you may choose to use a link to YouTube, Google Drive, or another external site.
+LINK
 
 ## Conclusion  
 
-As you wrap up the project, reflect on your experience of creating it.  Use this as an opportunity to mention any discoveries or challenges you came across along the way.  If there is anything you would have done differently, or have a chance to continue the project development given more time or resources, it’s a good way to conclude this section.
+All in all, I think I learned a lot about Protopie and using both software AND hardware both as means of making a product communicate and interact with the user. I think it was interesting to experiment with, and I hope to expand on this project further more in the future. 
