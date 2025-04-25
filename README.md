@@ -125,6 +125,19 @@ In order to cut my pieces, I first had to create an Illustrator file so that it 
 <img width="953" alt="Screenshot 2025-04-25 at 15 11 24" src="https://github.com/user-attachments/assets/1292a145-e863-4b29-8218-c1cc8fcfd39c" />
 <img width="833" alt="Screenshot 2025-04-25 at 15 10 28" src="https://github.com/user-attachments/assets/d3cdd644-269f-48ee-beb8-b218b1d4385f" />
 
+Then I had to print it at the Laser Lab.
+
+
+https://github.com/user-attachments/assets/f9b8b04f-f5f3-4eaf-a290-c38236dfa01b
+
+![IMG_4260](https://github.com/user-attachments/assets/3b3a9774-b7a4-460f-b62e-6fba5562696d)
+
+Afterwards, I had to glue it and sand it.
+![IMG_4450](https://github.com/user-attachments/assets/c1d13c2f-a87b-42a1-aa4a-45eeef24acc7)
+![IMG_4630](https://github.com/user-attachments/assets/19c07b79-07b4-4e01-a368-da47624c3e06)
+![IMG_4640](https://github.com/user-attachments/assets/b7b66ea4-f591-4685-9510-f537c78dd1bb)
+
+
 ## Project outcome  
 
 In the end, I got my prototype to work in the ways that I wanted it to, and I was satisfied with that- however, I think it can become somethign bigger and I would like to contiinue to work on it if a ever get a chance.  
