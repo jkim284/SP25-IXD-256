@@ -112,7 +112,9 @@ Explain the software components of your project, such as your ProtoPie project o
 
 ### Integrations   
 
-Add screenshots and describe any communication components used in your project, like your ProtoPie Connect setup, Adafruit IO feeds, dashboards, IFTTT applets, etc.   
+As for my software, I used ProtoPie to convey my interface screens and had the user interacting with both the screen and the physical box itself.
+
+<img width="1711" alt="Screenshot 2025-04-25 at 15 05 44" src="https://github.com/user-attachments/assets/3bf68d5d-8fbc-44fe-9705-98287d5497ce" />
 
 ### Enclosure / Mechanical Design   
 
