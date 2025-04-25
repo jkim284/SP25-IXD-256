@@ -22,7 +22,7 @@ The box consists of two sensors, a screen, and a LED light strip all placed with
   
 ### Schematic or Wiring Diagram
 
-Create a diagram or sketch to represent how all the hardware components of your project are connected together.  Each separate component can be represented as a labeled box and the wire connection between them as lines labeled with numbers indicating the specific pin connections on the ATOM board.  
+<img width="982" alt="Screenshot 2025-04-25 at 16 18 23" src="https://github.com/user-attachments/assets/41c73a1a-073a-4501-9965-66147c12685a" />
 
 ### Firmware   
 
