@@ -118,7 +118,14 @@ As for my software, I used ProtoPie to convey my interface screens and had the u
 
 ### Enclosure / Mechanical Design   
 
-Explain how you made the enclosure or any other physical or mechanical aspects of your project with photos, screenshots of relevant files such as laser-cut patterns, 3D models, etc. (it’s great if you’re willing to share the editable source files too!)
+In order to cut my pieces, I first had to create an Illustrator file so that it could be brought in and cut in the Laser Lab.
+
+<img width="1125" alt="Screenshot 2025-04-25 at 15 09 45" src="https://github.com/user-attachments/assets/7274248b-a16f-4b3f-a29d-5faacf567e02" />
+<img width="1192" alt="Screenshot 2025-04-25 at 15 10 01" src="https://github.com/user-attachments/assets/812429c8-3fd7-48e1-ae66-3178d6610ff5" />
+<img width="1146" alt="Screenshot 2025-04-25 at 15 10 17" src="https://github.com/user-attachments/assets/f27f1756-d32d-4a63-8bb2-64ca59abbe3a" />
+<img width="833" alt="Screenshot 2025-04-25 at 15 10 28" src="https://github.com/user-attachments/assets/d3cdd644-269f-48ee-beb8-b218b1d4385f" />
+<img width="1014" alt="Screenshot 2025-04-25 at 15 10 50" src="https://github.com/user-attachments/assets/ea8e6557-65d3-4dfe-8bc7-b4a43b90ec4a" />
+<img width="953" alt="Screenshot 2025-04-25 at 15 11 24" src="https://github.com/user-attachments/assets/1292a145-e863-4b29-8218-c1cc8fcfd39c" />
 
 ## Project outcome  
 
