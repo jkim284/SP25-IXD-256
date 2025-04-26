@@ -142,7 +142,7 @@ Afterwards, I had to glue it and sand it.
 
 In the end, I got my prototype to work in the ways that I wanted it to, and I was satisfied with that- however, I think it can become somethign bigger and I would like to contiinue to work on it if a ever get a chance.  
 
-LINK
+https://drive.google.com/file/d/1XLTutUw4iPQv81phPq9Z0xN_yIiFFjMm/view?usp=sharing
 
 ## Conclusion  
 
